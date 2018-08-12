@@ -1,6 +1,9 @@
 myTerminal
 ==================
-Description: my mac terminal profile and configuration
+Description: 
+
+my mac terminal profile and configuration
+
 * .terminal file -> Open Terminal/ Preference/ Add
 * In the ~/.bash_profile -> Copy & Paste the text below
 ---
@@ -13,7 +16,7 @@ Description: my mac terminal profile and configuration
 export CLICOLOR=1
 alias ls='ls -Fa'
 ```
-#### define colors
+#### Define colors
 ```
 C_DEFAULT="\[\033[m\]"
 C_WHITE="\[\033[1m\]"
@@ -47,7 +50,7 @@ parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 ```
-#### set your prompt
+#### Set the prompt
 ```
 export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h$C_DARKGRAY: $C_LIGHTYELLOW\w $C_LIGHT_GREEN\$(parse_git_branch)\n$C_DARKGRAY\$$C_DEFAULT " 
 ```

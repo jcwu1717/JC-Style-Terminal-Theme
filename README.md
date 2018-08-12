@@ -1,8 +1,8 @@
 myTerminal
 ==================
-Description: 
+### Description: 
 
-my mac terminal profile and configuration
+This is my mac terminal profile and configuration.
 
 * .terminal file -> Open Terminal/ Preference/ Add
 * In the ~/.bash_profile -> Copy & Paste the text below

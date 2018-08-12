@@ -5,7 +5,7 @@ myTerminal
 This is my mac terminal profile and configuration.
 
 ### Installation Instructions
-* Install Ubuntu font [here] [1]
+* Install Ubuntu font [here][1]
 * `*.terminal` file -> Open Terminal/ Preference/ Add
 * In the `~/.bash_profile` -> Copy & Paste the text below
 

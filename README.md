@@ -1,11 +1,15 @@
 myTerminal
 ==================
-### Description: 
+### Description
 
 This is my mac terminal profile and configuration.
 
-* .terminal file -> Open Terminal/ Preference/ Add
-* In the ~/.bash_profile -> Copy & Paste the text below
+### Installation Instructions
+* Install Ubuntu font [here] [1]
+* `*.terminal` file -> Open Terminal/ Preference/ Add
+* In the `~/.bash_profile` -> Copy & Paste the text below
+
+[1]: https://design.ubuntu.com/font/
 ---
 
 
@@ -13,11 +17,13 @@ This is my mac terminal profile and configuration.
 
 #### Make ls use colors
 ```
+# Make ls use colors
 export CLICOLOR=1
 alias ls='ls -Fa'
 ```
 #### Define colors
 ```
+# Define colors
 C_DEFAULT="\[\033[m\]"
 C_WHITE="\[\033[1m\]"
 C_BLACK="\[\033[30m\]"
@@ -46,11 +52,13 @@ C_BG_LIGHTGRAY="\[\033[47m\]"
 ```
 #### Display git branch name
 ```
+# Display git branch name
 parse_git_branch() {
     git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 ```
 #### Set the prompt
 ```
+# Set the prompt
 export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h$C_DARKGRAY: $C_LIGHTYELLOW\w $C_LIGHT_GREEN\$(parse_git_branch)\n$C_DARKGRAY\$$C_DEFAULT " 
 ```

@@ -10,6 +10,7 @@ This is my mac terminal profile and configuration.
 * In the `~/.bash_profile` -> Copy & Paste the text below
 
 [1]: https://design.ubuntu.com/font/
+
 ---
 
 

@@ -1,12 +1,13 @@
-myTerminal
+JC-Style-Terminal-Theme
 ==================
 ### Description
 
-This is my mac terminal profile and configuration.
+This is my mac terminal profile and configuration for default macos terminal.app .
 
 ### Installation Instructions
 * Install Ubuntu font [here][1]
 * `*.terminal` file -> Open Terminal/ Preference/ Add
+* Edit Font: Ubuntu Mono 13p
 * In the `~/.bash_profile` -> Copy & Paste the text below
 
 [1]: https://design.ubuntu.com/font/
@@ -63,3 +64,6 @@ parse_git_branch() {
 # Set the prompt
 export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h$C_DARKGRAY: $C_LIGHTYELLOW\w $C_LIGHT_GREEN\$(parse_git_branch)\n$C_DARKGRAY\$$C_DEFAULT " 
 ```
+
+Screenshots
+==================

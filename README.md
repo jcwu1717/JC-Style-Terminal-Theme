@@ -67,3 +67,6 @@ export PS1="\n$C_LIGHTGREEN\u$C_DARKGRAY@$C_BLUE\h$C_DARKGRAY: $C_LIGHTYELLOW\w 
 
 Screenshots
 ==================
+![JC-Style][img1]
+
+[img1]: https://github.com/jcwu1717/JC-Style-Terminal-Theme/blob/master/Screenshots/JC%20Style.png

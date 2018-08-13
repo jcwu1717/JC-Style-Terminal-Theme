@@ -4,6 +4,13 @@ JC-Style-Terminal-Theme
 
 This is my mac terminal profile and configuration for default macos terminal.app .
 
+### To Generate Preview ScreenShots
+* In the terminal, Run `bash tools/preview.sh`
+
+Reference: [Bash Prompt HOWTO: Chapter 6. ANSI Escape Sequences: Colours and Cursor Movement][ref]
+
+[ref]: http://tldp.org/HOWTO/Bash-Prompt-HOWTO/x329.html
+
 ### Installation Instructions
 * Install Ubuntu font [here][1]
 * `*.terminal` file -> Open Terminal/ Preference/ Add
